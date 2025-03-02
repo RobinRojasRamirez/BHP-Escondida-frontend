@@ -1,0 +1,19 @@
+<div class="img-fondo">
+  <div class="wrapper fadeInDown">
+      <div id="formContent">
+          <div class="text-center p-5">
+              <img src="../../../../assets/images/logo-escondida.jpeg" alt="Logo" class="img-fluid text-center">
+              <h2 class="mt-5 text-black fw-bold">Bienvenido</h2>
+          </div>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+          <input type="text" class="fadeIn second w-11 h-3rem" placeholder="username" formControlName="email">
+          <input type="password" class="fadeIn third w-11 h-3rem" placeholder="password" formControlName="password">
+          <p-button type="submit" label="INGRESAR" styleClass="p-button-raised mt-3 mb-4 w-11" variant="outlined" severity="warn"></p-button>
+          <p *ngIf="errorMessage" class="text-danger text-center mb-3 text-xl text-red-500">{{ errorMessage }}</p>
+        </form>
+        <div id="formFooter" class="p-3">
+          <p class="text-black-alpha-40">Copyright © 2025</p>
+        </div>
+      </div>
+  </div>
+</div>
