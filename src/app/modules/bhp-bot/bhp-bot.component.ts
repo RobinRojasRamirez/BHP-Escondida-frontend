@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './bhp-bot.component.css'
 })
 export class BhpBotComponent {
-
 }
