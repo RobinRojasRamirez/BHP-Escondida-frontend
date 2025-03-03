@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "BHR-Escondida-Frontend": {
+    "bhp-Escondida-Frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bhr-escondida-frontend",
+            "outputPath": "dist/bhp-escondida-frontend",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -56,10 +56,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "BHR-Escondida-Frontend:build:production"
+              "buildTarget": "bhp-Escondida-Frontend:build:production"
             },
             "development": {
-              "buildTarget": "BHR-Escondida-Frontend:build:development"
+              "buildTarget": "bhp-Escondida-Frontend:build:development"
             }
           },
           "defaultConfiguration": "development"

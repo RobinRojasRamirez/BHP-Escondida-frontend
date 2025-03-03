@@ -15,7 +15,7 @@ import { LoginService } from '../../../modules/login/services/login.service';
             <button class="layout-menu-button layout-topbar-action" (click)="layoutService.onMenuToggle()">
                 <i class="pi pi-bars"></i>
             </button>
-            <h4 style="margin-left: 1rem">BHR - Escondida</h4>
+            <h4 style="margin-left: 1rem">BHP - Escondida</h4>
         </div>
 
         <div class="layout-topbar-actions">

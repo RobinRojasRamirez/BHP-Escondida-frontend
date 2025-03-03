@@ -20,7 +20,7 @@ import { AlertService } from './shared/services/alert.service';
 })
 export class AppComponent {
 
-  title = 'BHR-Escondida-Frontend';
+  title = 'BHP-Escondida-Frontend';
 
 }
 
