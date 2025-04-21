@@ -21,7 +21,21 @@ export const routes: Routes = [
           path: 'bhp-bot', 
           loadComponent: () => import('./modules/bhp-bot/bhp-bot.component')
             .then((m) => m.BhpBotComponent) 
-        }
+        },
+        {
+          path: 'users',
+          loadChildren: () =>
+            import(
+              './modules/users/users.module'
+            ).then((m) => m.UsersModule),
+        },
+        {
+          path: 'instructions',
+          loadChildren: () =>
+            import(
+              './modules/instructions/instructions.module'
+            ).then((m) => m.InstructionsModule),
+        },
       ]
     },
     { path: '', redirectTo: 'login', pathMatch: 'full' },

@@ -87,6 +87,12 @@ export class AppMenu {
                 ]
             },
             {
+                items: [{ label: 'Usuarios', icon: 'pi pi-fw pi-user', routerLink: ['/users'] }]
+            },
+            {
+                items: [{ label: 'Instructivos', icon: 'pi pi-fw pi-receipt', routerLink: ['/instructions'] }]
+            },
+            {
                 items: [{ label: 'Cerrar Sesión', icon: 'pi pi-fw pi-power-off text-red-400', command: () => this.logout() }]
             },
         ];
